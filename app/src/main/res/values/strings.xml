@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">hw5_wishlist</string>
+    <string-array name="homeItems">
+        <item>Pencils</item>
+        <item>Paint</item>
+        <item>Digital</item>
+    </string-array>
+
+    <string-array name="pencils">
+        <item>Prismacolor</item>
+        <item>Crayola</item>
+        <item>Castle</item>
+    </string-array>
+
+    <string-array name="paints">
+        <item>Winsor+Newton</item>
+        <item>BLICK</item>
+        <item>Sennelier</item>
+    </string-array>
+
+    <string-array name="digital">
+        <item>Ipad + Procreate</item>
+        <item>Wacom Tablet</item>
+        <item>Clip Studio Paint</item>
+    </string-array>
+</resources>

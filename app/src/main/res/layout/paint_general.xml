@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paint_general"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    tools:contect=".paintActivity">
+
+    <ListView
+        android:id="@+id/paintListView"
+        android:layout_width="match_parent"
+        android:layout_height="497dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/toggleDelPaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:onClick="paintToggleDeleteMode"
+            android:text="Click to Delete"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>
